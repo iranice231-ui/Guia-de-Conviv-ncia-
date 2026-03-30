@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'motion/react';
-import { Home, FileText } from 'lucide-react';
+import { Home } from 'lucide-react';
 
 export default function Hero() {
   return (
@@ -26,19 +26,12 @@ export default function Hero() {
             Tudo o que você precisa saber para viver bem em condomínio
           </p>
           
-          <div className="mt-10 flex flex-col sm:flex-row justify-center gap-4">
+          <div className="mt-10 flex justify-center">
             <a
               href="#boas-vindas"
               className="inline-flex items-center justify-center px-8 py-4 border border-transparent text-lg font-medium rounded-full text-white bg-brand-red hover:bg-brand-red-light shadow-lg hover:shadow-xl transition-all transform hover:-translate-y-1"
             >
               Acessar Guia
-            </a>
-            <a
-              href="#documentos"
-              className="inline-flex items-center justify-center gap-2 px-8 py-4 border-2 border-gray-200 text-lg font-medium rounded-full text-gray-700 bg-white hover:bg-gray-50 hover:border-gray-300 shadow-sm hover:shadow-md transition-all transform hover:-translate-y-1"
-            >
-              <FileText className="w-5 h-5" />
-              Ver Convenção
             </a>
           </div>
         </motion.div>
